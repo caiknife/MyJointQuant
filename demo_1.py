@@ -5,6 +5,8 @@
 一个简单但是完整的策略
 """
 
+from JoinQuant import *
+
 
 def initialize(context):
     g.security = "000001.XSHE"

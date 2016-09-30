@@ -7,6 +7,8 @@
 - 如果上一个时间点价格低于五天平均价，则空仓卖出
 """
 
+from JoinQuant import *
+
 
 def initialize(context):
     # 000001 平安银行
